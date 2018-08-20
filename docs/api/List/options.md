@@ -18,7 +18,7 @@ The singular label for the items in the list. Used in the Admin UI, defaults to 
 
 The plural label for the items in the list. Used in the Admin UI, defaults to a plural form of `singular`
 
-<h4 data-primitive-type="String"><code>schema</code></h4>
+<h4 data-primitive-type="Object"><code>schema</code></h4>
 
 Options for the Mongoose Schema for the List. Among other things, this option lets you specify a custom name for the collection. See the [mongoose schema docs](http://mongoosejs.com/docs/guide.html#options) for a list of available options.
 *Warning: do not modify the `id` or `_id` schema options; the default behaviour is required by Keystone*
